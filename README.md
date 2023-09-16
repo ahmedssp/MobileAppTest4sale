@@ -22,7 +22,6 @@ Using the following dependencies:
 "https://mvnrepository.com/artifact/com.aventstack/extentreports".
 
 Testing app: 4Sale, "https://play.google.com/store/apps/details?id=com.forsale.forsale".
-
 Apply Page Object Model (POM) design pattern in project .
 
 Apply Data Driven testing by Passing data to DataProvider from Excel Sheet in TestNG .
@@ -52,10 +51,4 @@ Handling allerts
         16-Send Price And Send Data from Excel Sheet "any data"
         17-Click Botton_Don() to navigate next Screen of add meadia 
         18-Assert that navigate to Add Media Screen by assert it contains Element text="add media" 
-
-
-
-
-
-
-
+_____________________________________________________________________________________________________
