@@ -2,7 +2,7 @@
 
 It was created By Ahmed Mostafa Abdellsalame - september 16, 2023.  UI Mobile APP 4Sale (Android) Testing .
 
-Automation script with Java. by using IntelliJ , Appium , android emulator v14
+Automation script with Java. by using IntelliJ , Appium v-2.1.3, android emulator v14
 
 Project test Scenarios, features list, and Test techniques:https://drive.google.com/file/d/16mm6AD_TdtJi3U6w50ARVtKKeZ5OFukM/view
 
