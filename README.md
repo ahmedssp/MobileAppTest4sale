@@ -9,26 +9,27 @@ Project test Scenarios, features list, and Test techniques:
 -Add desired capabilities at @Before method 
 -Download 4Sale App and save it in Resource folder of project to call its payh
 -Create Pages or Screens Locate Elements separately
-- Click on Post and Add Botton 
+- Execution steps for test :
      
-        Login_page.Sendpassword(Password);
-        P2_Add_And_Post_page Add_And_Post = Login_page.PressLoginBotton();
-        Add_And_Post.Click_category();
-        Add_And_Post.SelectFirest_Catg_Automaotive(Sup_Catg);
-        Add_And_Post.Select_SupCat(Firest_Catg);
-        Add_And_Post.CLICK_Next_Boutton();
-        Add_And_Post.AssertMessegesAppeared("mandatory", "required", "required");
-        Add_And_Post.Select_ServiceLocation(Location);
-        Add_And_Post.Click_Done();
-        Add_And_Post.SelectArea(Area);
-        Add_And_Post.Click_Done();
-        Add_And_Post.SelectBLOCK(Block);
-        Add_And_Post.Click_Done();
-        Add_And_Post.Botton_Don();
-        Add_And_Post.Send_info_Title(Title);
-        Add_And_Post.send_info_Price(Price);
-        Add_And_Post.Botton_Don();
-        Add_And_Post.AssertScrean_AddMedia("add media");
+
+        Click on Post and Add Botton
+        navigate to Login_page and send Phone and password
+        navigate to  category Screen and click on it 
+        SelectFirest_Catg_by send keys (Automaotive)
+        Select_Sup Category from main category by searching for required value (Classic Cars);
+        CLICK_Next_Boutton()
+        Assert Three messages appears when mandatory field not filled And applay soft assertion ("mandatory", "required", "required")
+        Select_ServiceLocation(Location);
+        Click_Done botton;
+        Select Area from dropdown list And Send Data from Excel Sheet :"dasma"
+        Click_Done()
+        Select BLOCK from dropdown list And Send Data from Excel Sheet :"Block 1"
+        Click_Done()
+        Click Botton_Don() to navigate to next filed 
+        Send information Title And Send Data from Excel Sheet "any data"
+        Send Price And Send Data from Excel Sheet "any data"
+        Click Botton_Don() to navigate next Screen of add meadia 
+        Assert that Screen contains Element text=add media 
 
 Testing app: 4Sale, "https://play.google.com/store/apps/details?id=com.forsale.forsale".
 
