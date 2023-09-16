@@ -13,24 +13,24 @@ Project test Scenarios, features list, and Test techniques:
 -The Execution steps for test as follows :
 
      
-        Click on Post and Add Botton
-        navigate to Login_page and send Phone and password
-        navigate to  category Screen and click on it 
-        SelectFirest_Catg_by send keys (Automaotive)
-        Select_Sup Category from main category by searching for required value (Classic Cars);
-        CLICK_Next_Boutton()
-        Assert Three messages appears when mandatory field not filled And applay soft assertion ("mandatory", "required", "required")
-        Select_ServiceLocation(Location);
-        Click_Done botton;
-        Select Area from dropdown list And Send Data from Excel Sheet :"dasma"
-        Click_Done()
-        Select BLOCK from dropdown list And Send Data from Excel Sheet :"Block 1"
-        Click_Done()
-        Click Botton_Don() to navigate to next filed 
-        Send information Title And Send Data from Excel Sheet "any data"
-        Send Price And Send Data from Excel Sheet "any data"
-        Click Botton_Don() to navigate next Screen of add meadia 
-        Assert that Screen contains Element text=add media 
+        1-Click on Post and Add Botton
+        2-navigate to Login_page and send Phone and password
+        3-navigate to  category Screen and click on it 
+        4-SelectFirest_Catg_by send keys (Automaotive)
+        5-Select_Sup Category from main category by searching for required value (Classic Cars);
+        6-CLICK_Next_Boutton()
+        7-Assert Three messages appears when mandatory field not filled And applay soft assertion ("mandatory", "required", "required")
+        8-Select_ServiceLocation(Location);
+        9-Click_Done botton;
+        10-Select Area from dropdown list And Send Data from Excel Sheet :"dasma"
+        11-Click_Done()
+        12-Select BLOCK from dropdown list And Send Data from Excel Sheet :"Block 1"
+        13-Click_Done()
+        14-Click Botton_Don() to navigate to next filed 
+        15-Send information Title And Send Data from Excel Sheet "any data"
+        16-Send Price And Send Data from Excel Sheet "any data"
+        17-Click Botton_Don() to navigate next Screen of add meadia 
+        18-Assert that Screen contains Element text=add media 
 
 Testing app: 4Sale, "https://play.google.com/store/apps/details?id=com.forsale.forsale".
 
