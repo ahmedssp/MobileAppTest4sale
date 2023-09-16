@@ -9,9 +9,10 @@ Project test Scenarios, features list, and Test techniques:
 -Add desired capabilities at @Before method 
 -Download 4Sale App and save it in Resource folder of project to call its payh
 -Create Pages or Screens Locate Elements separately
-- Execution steps for test :
-     
 
+-The Execution steps for test as follows :
+
+     
         Click on Post and Add Botton
         navigate to Login_page and send Phone and password
         navigate to  category Screen and click on it 
