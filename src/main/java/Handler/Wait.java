@@ -10,8 +10,8 @@ import org.openqa.selenium.support.ui.FluentWait;
 
 import java.time.Duration;
 
-public  class Wait {
-    public static void waitForElementElement(AppiumDriver driver,WebElement element) {
+public class Wait {
+    public static void waitForElementElement(AppiumDriver driver, WebElement element) {
         FluentWait<AppiumDriver> wait = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(30))
                 .pollingEvery(Duration.ofMillis(500))
@@ -20,6 +20,7 @@ public  class Wait {
 
         wait.until(ExpectedConditions.visibilityOf(element));
     }
+
     public static void waitForElement(AppiumDriver driver, By locator) {
         FluentWait<AppiumDriver> wait = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(30))
@@ -29,6 +30,7 @@ public  class Wait {
 
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(locator)));
     }
+
     public static void waitForElementExtra(AppiumDriver driver, By locator) {
         FluentWait<AppiumDriver> wait = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(60))
@@ -38,15 +40,16 @@ public  class Wait {
 
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(locator)));
     }
-    public static boolean retryingFindClick(AppiumDriver driver,By by) {
+
+    public static boolean retryingFindClick(AppiumDriver driver, By by) {
         boolean result = false;
         int attempts = 0;
-        while(attempts < 2) {
+        while (attempts < 2) {
             try {
                 driver.findElement(by).click();
                 result = true;
                 break;
-            } catch(Exception x) {
+            } catch (Exception x) {
             }
             attempts++;
         }

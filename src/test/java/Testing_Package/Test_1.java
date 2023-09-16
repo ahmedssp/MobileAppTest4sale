@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class Test_1 extends Sutep {
 
     @Test(dataProvider = "exceldata", dataProviderClass = apachi_POI.class)
-    public void test1(String Phone, String Password, String Firest_Catg, String Sup_Catg, String Location, String Area,String Block,String Title, String Price) throws InterruptedException {
+    public void test1(String Phone, String Password, String Firest_Catg, String Sup_Catg, String Location, String Area, String Block, String Title, String Price) throws InterruptedException {
         P1_Login_page Login_page = DefultPage.postAndAdd_click();
         Login_page.SendPhoneNO(Phone.replace("\"", ""));
         Login_page.Sendpassword(Password);

@@ -9,6 +9,7 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -17,6 +18,7 @@ public class Sutep {
     // protected AppiumServerJava service_c;
     protected AppiumDriver d;
     protected P0_DefultPage DefultPage;
+
     @BeforeTest // contains configuration and clear
     public void setup() throws MalformedURLException, InterruptedException {
 //        service_c.startServer();

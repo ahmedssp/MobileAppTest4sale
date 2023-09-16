@@ -5,7 +5,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;
 
 public class alertHandling {
-    public static void allertH1(AppiumDriver driver){
+    public static void allertH1(AppiumDriver driver) {
         try {
             Alert alert = driver.switchTo().alert();
             String alertText = alert.getText();
@@ -15,7 +15,8 @@ public class alertHandling {
             e.printStackTrace();
         }
     }
-    public static void allertDis(AppiumDriver driver){
+
+    public static void allertDis(AppiumDriver driver) {
         try {
             Alert alert = driver.switchTo().alert();
             String alertText = alert.getText();

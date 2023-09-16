@@ -14,14 +14,15 @@ public class P2_Add_And_Post_page {
     private By Block_Filed = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/androidx.cardview.widget.CardView[3]/android.view.ViewGroup/android.widget.TextView[2]");
     private By Txt_LIST = By.className("android.widget.TextView");
     private By Option_lis = By.className("android.view.ViewGroup");
-    private By Botton_Don=By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.widget.Button");
-    private By infoTitle_filed= By.id("com.forsale.forsale:id/adTitleField");
-    private By infoTPrice_filed =By.id("com.forsale.forsale:id/adPriceField");
-    private By AddMedia_Filed= By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView");
+    private By Botton_Don = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.widget.Button");
+    private By infoTitle_filed = By.id("com.forsale.forsale:id/adTitleField");
+    private By infoTPrice_filed = By.id("com.forsale.forsale:id/adPriceField");
+    private By AddMedia_Filed = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView");
 
     public P2_Add_And_Post_page(AppiumDriver d) {
         this.d = d;
     }
+
     private By allertID_filed = By.id("android:id/button1");
     private By category_filed = By.id("com.forsale.forsale:id/chooseCategoryField");
     private By Firest_Catg_Automaotive_filed = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]");
@@ -40,8 +41,8 @@ public class P2_Add_And_Post_page {
 
     public void SelectFirest_Catg_Automaotive(String CategoryName) {
 //        Selector(Txt_LIST, Option_lis, CategoryName);
-         Wait.waitForElement(d, Firest_Catg_Automaotive_filed);
-          d.findElement(Firest_Catg_Automaotive_filed).click();
+        Wait.waitForElement(d, Firest_Catg_Automaotive_filed);
+        d.findElement(Firest_Catg_Automaotive_filed).click();
     }
 
     public void Select_SupCat(String SupCategoryName) {
@@ -60,11 +61,13 @@ public class P2_Add_And_Post_page {
         softAssert.assertTrue(d.findElement(Txt3_required).getText().toLowerCase().contains(m3), "m3Error");
         softAssert.assertAll();
     }
+
     public void AssertScrean_AddMedia(String m1) {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertTrue(d.findElement(AddMedia_Filed).getText().toLowerCase().contains(m1), "m1Error");
         softAssert.assertAll();
     }
+
     public void Select_ServiceLocation(String location) {
         d.findElement(Selectlocation_Filed).click();
         d.findElement(district_filed).click();
