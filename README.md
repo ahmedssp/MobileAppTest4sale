@@ -22,3 +22,10 @@ Using the following dependencies:
 Apply Page Object Model (POM) design pattern in project .
 
 Apply Data Driven testing by Passing data to DataProvider from Excel Sheet in TestNG .
+
+Applay Waiting Strategies.
+
+Handling allerts 
+
+
+
