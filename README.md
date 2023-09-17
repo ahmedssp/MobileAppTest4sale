@@ -21,18 +21,18 @@ Using the following dependencies:
 - extentreports
 "https://mvnrepository.com/artifact/com.aventstack/extentreports".
 
-Testing app: 4Sale, "https://play.google.com/store/apps/details?id=com.forsale.forsale".
+-Testing app: 4Sale, "https://play.google.com/store/apps/details?id=com.forsale.forsale".
 
-Apply Page Object Model (POM) design pattern in project .
+-Apply Page Object Model (POM) design pattern in project .
 
-Apply Data Driven testing by Passing data to DataProvider from Excel Sheet in TestNG .
+-Apply Data Driven testing by Passing data to DataProvider from Excel Sheet in TestNG .
 
-Applay Waiting Strategies.
+-Applay Waiting Strategies.
 
-Handling allerts
+-Handling allerts
 
-Youtube Link for automation Execution Video
--https://www.youtube.com/watch?v=c1uM_KGrzK8
+-Youtube Link for automation Execution Video.
+   -https://www.youtube.com/watch?v=c1uM_KGrzK8
 
 
 -The Execution steps for test as follows :
