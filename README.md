@@ -31,7 +31,6 @@ Applay Waiting Strategies.
 Handling allerts 
 
 -The Execution steps for test as follows :
-
      
         1-Click on Post and Add Botton
         2-navigate to Login_page and send Phone and password
@@ -52,3 +51,7 @@ Handling allerts
         17-Click Botton_Don() to navigate next Screen of add meadia 
         18-Assert that navigate to Add Media Screen by assert it contains Element text="add media" 
 _____________________________________________________________________________________________________
+Youtube Link for automation Execution Video
+-https://www.youtube.com/watch?v=c1uM_KGrzK8
+
+......................................................................................................
