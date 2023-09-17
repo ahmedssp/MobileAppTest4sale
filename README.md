@@ -22,13 +22,18 @@ Using the following dependencies:
 "https://mvnrepository.com/artifact/com.aventstack/extentreports".
 
 Testing app: 4Sale, "https://play.google.com/store/apps/details?id=com.forsale.forsale".
+
 Apply Page Object Model (POM) design pattern in project .
 
 Apply Data Driven testing by Passing data to DataProvider from Excel Sheet in TestNG .
 
 Applay Waiting Strategies.
 
-Handling allerts 
+Handling allerts
+
+Youtube Link for automation Execution Video
+-https://www.youtube.com/watch?v=c1uM_KGrzK8
+
 
 -The Execution steps for test as follows :
      
@@ -51,7 +56,3 @@ Handling allerts
         17-Click Botton_Don() to navigate next Screen of add meadia 
         18-Assert that navigate to Add Media Screen by assert it contains Element text="add media" 
 _____________________________________________________________________________________________________
-Youtube Link for automation Execution Video
--https://www.youtube.com/watch?v=c1uM_KGrzK8
-
-......................................................................................................
